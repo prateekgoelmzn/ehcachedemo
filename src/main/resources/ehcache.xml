@@ -1,0 +1,11 @@
+<ehcache>
+    <cache name="myCache"
+           maxElementsInMemory="500"
+           eternal="false"
+           overflowToDisk="false"
+           timeToLiveSeconds="300"
+           timeToIdleSeconds="120"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">
+    </cache>
+</ehcache>
